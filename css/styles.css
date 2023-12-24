@@ -1,4 +1,23 @@
 body {
   background-color: #111;
   color:antiquewhite;
+  margin: 30px;
 }
+.grid-container {
+  position: relative;
+}
+.grid-item {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 3px solid antiquewhite;
+  border-radius: 15px;
+}
+
+.item1 { top: 0; left: 0; }
+.item2 { top: 0; left: 240px; }
+.item3 { top: 0; left: 480px; }
+.item4 { top: 240px; left: 0; }
+.item5 { top: 240px; left: 240px; }
+.item6 { top: 240px; left: 480px; }
+.item7 { top: 0; left: 720px; height: 440px; }
