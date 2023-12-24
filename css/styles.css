@@ -1,23 +1,35 @@
 body {
   background-color: #111;
   color:antiquewhite;
-  margin: 30px;
+  margin: 0;
+  box-sizing: border-box;
 }
-.grid-container {
-  position: relative;
-}
-.grid-item {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 3px solid antiquewhite;
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  border: 3px solid #333;
   border-radius: 15px;
 }
+.item {
+  padding: 70px;
+  text-align: center;
+  border: 3px solid antiquewhite;
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+.item1 {
 
-.item1 { top: 0; left: 0; }
-.item2 { top: 0; left: 240px; }
-.item3 { top: 0; left: 480px; }
-.item4 { top: 240px; left: 0; }
-.item5 { top: 240px; left: 240px; }
-.item6 { top: 240px; left: 480px; }
-.item7 { top: 0; left: 720px; height: 440px; }
+}
+.item2 {
+  
+}
+.item3 {
+  
+}
+.item4 {
+  
+}
